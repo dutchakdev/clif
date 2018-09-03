@@ -55,6 +55,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="Makefile" value="1" />
           <entry key="categories" value="6" />
           <entry key="commands" value="7" />
           <entry key="gitignore" value="1" />
@@ -71,13 +72,14 @@
         <counts>
           <entry key="Database Element" value="13" />
           <entry key="Go" value="40" />
-          <entry key="PLAIN_TEXT" value="8" />
+          <entry key="PLAIN_TEXT" value="9" />
           <entry key="Scratch" value="2" />
           <entry key="YAML" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="Makefile" value="7" />
           <entry key="cell" value="93" />
           <entry key="dummy" value="6" />
           <entry key="gitignore" value="41" />
@@ -92,7 +94,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Go" value="7721" />
-          <entry key="PLAIN_TEXT" value="182" />
+          <entry key="PLAIN_TEXT" value="189" />
           <entry key="Scratch" value="118" />
           <entry key="YAML" value="176" />
         </counts>
@@ -110,7 +112,7 @@
         <entry file="file://$PROJECT_DIR$/../clif/main.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="307">
-              <caret line="24" column="39" lean-forward="true" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
+              <caret line="24" column="39" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
               <folding>
                 <element signature="e#13#144#0" expanded="true" />
               </folding>
@@ -118,11 +120,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../clif/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="17" lean-forward="true" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+            <state relative-caret-position="300">
+              <caret line="20" column="38" lean-forward="true" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -136,11 +138,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../clif/command/command.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+            <state relative-caret-position="359">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
+              <folding>
+                <element signature="e#17#332#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -176,7 +181,7 @@
         <entry file="file://$PROJECT_DIR$/../clif/version/version.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+              <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -185,16 +190,7 @@
         <entry file="file://$PROJECT_DIR$/../clif/helpers/select.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../clif/globals/globals.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -254,7 +250,6 @@
         <option value="$PROJECT_DIR$/../clif/db/db.go" />
         <option value="$PROJECT_DIR$/../clif/globals/globals.go" />
         <option value="$PROJECT_DIR$/../clif/category/category.go" />
-        <option value="$PROJECT_DIR$/../clif/.travis.yml" />
         <option value="$PROJECT_DIR$/../clif/promt/promt.go" />
         <option value="$PROJECT_DIR$/../clif/promt/promt_test.go" />
         <option value="$PROJECT_DIR$/../clif/helpers/select.go" />
@@ -265,6 +260,8 @@
         <option value="$PROJECT_DIR$/../clif/test_tag.sh" />
         <option value="$PROJECT_DIR$/../clif/.gitignore" />
         <option value="$PROJECT_DIR$/../clif/command/command.go" />
+        <option value="$PROJECT_DIR$/../clif/Makefile" />
+        <option value="$PROJECT_DIR$/../clif/.travis.yml" />
       </list>
     </option>
   </component>
@@ -291,11 +288,6 @@
             <path>
               <item name="clif" type="b2602c69:ProjectViewProjectNode" />
               <item name="clif" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="clif" type="b2602c69:ProjectViewProjectNode" />
-              <item name="clif" type="462c0819:PsiDirectoryNode" />
-              <item name="command" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -690,7 +682,7 @@
     <entry file="file://$PROJECT_DIR$/../clif/helpers/select.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
@@ -711,24 +703,17 @@
     <entry file="file://$PROJECT_DIR$/../clif/version/version.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../clif/main.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="307">
-          <caret line="24" column="39" lean-forward="true" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
+          <caret line="24" column="39" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
           <folding>
             <element signature="e#13#144#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../clif/.travis.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="17" lean-forward="true" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -755,8 +740,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../clif/command/command.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+        <state relative-caret-position="359">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#17#332#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../clif/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../clif/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="38" lean-forward="true" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
         </state>
       </provider>
     </entry>

@@ -1,15 +1,10 @@
 sudo: false
-
 language: go
-
 go:
 - 1.10.3
 
 git:
   depth: 1
-
-install:
-  -
 
 notifications:
   email: false
