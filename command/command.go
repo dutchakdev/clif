@@ -6,7 +6,6 @@ import (
 	"github.com/dutchakdev/clif/db"
 	"github.com/dutchakdev/clif/helpers"
 	"github.com/dutchakdev/clif/process"
-	"github.com/dutchakdev/clif/promt"
 	"github.com/fatih/color"
 	"github.com/manifoldco/promptui"
 	"gopkg.in/urfave/cli.v1"
