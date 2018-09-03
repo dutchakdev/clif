@@ -4,11 +4,31 @@
 
 Favorites for CLI. Save your commands in category interactive.
 
-## Requirements
+## Usage
+
+```
+NAME:
+   clif - CLI Favorites
+
+USAGE:
+   main [global options] command [command options] [arguments...]
+
+VERSION:
+   0.0.1
+
+COMMANDS:
+     categories, c  Categories of commands
+     command, cmd   Commands
+     help, h        Shows a list of commands or help for one command
+
+GLOBAL OPTIONS:
+   --interactive value, -i value  Ask confirmation for certain operations (default: "false")
+   --help, -h                     show help
+   --version, -v                  print the version
+```
 
 ## Installation
-
-## Configuration
+`brew install newageio/homebrew-tools/clif`
 
 ## Documentation
 

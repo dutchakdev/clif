@@ -84,7 +84,7 @@
           <entry key="dummy" value="6" />
           <entry key="gitignore" value="48" />
           <entry key="go" value="7721" />
-          <entry key="md" value="113" />
+          <entry key="md" value="136" />
           <entry key="sh" value="22" />
           <entry key="sql" value="25" />
           <entry key="yaml" value="74" />
@@ -94,7 +94,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Go" value="7721" />
-          <entry key="PLAIN_TEXT" value="196" />
+          <entry key="PLAIN_TEXT" value="219" />
           <entry key="Scratch" value="118" />
           <entry key="YAML" value="176" />
         </counts>
@@ -124,16 +124,16 @@
         <entry file="file://$PROJECT_DIR$/../clif/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
-              <caret line="20" column="38" lean-forward="true" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+              <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../clif/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
-              <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+              <caret line="3" column="6" lean-forward="true" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -168,11 +168,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../clif/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="73" selection-start-column="32" selection-end-column="73" />
+            <state relative-caret-position="75">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -181,7 +181,7 @@
         <entry file="file://$PROJECT_DIR$/../clif/CODE_OF_CONDUCT.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="425">
-              <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
+              <caret line="73" selection-start-line="73" selection-end-line="73" />
             </state>
           </provider>
         </entry>
@@ -245,7 +245,6 @@
         <option value="$PROJECT_DIR$/../clif/src/db.go" />
         <option value="$PROJECT_DIR$/../clif/promt.go" />
         <option value="$PROJECT_DIR$/../clif/process.go" />
-        <option value="$PROJECT_DIR$/../clif/README.md" />
         <option value="$PROJECT_DIR$/../clif/glide.yaml" />
         <option value="$PROJECT_DIR$/../clif/db.go" />
         <option value="$PROJECT_DIR$/../clif/category.go" />
@@ -269,6 +268,7 @@
         <option value="$PROJECT_DIR$/../clif/CODE_OF_CONDUCT.md" />
         <option value="$PROJECT_DIR$/../clif/CONTRIBUTING.md" />
         <option value="$PROJECT_DIR$/../clif/.gitignore" />
+        <option value="$PROJECT_DIR$/../clif/README.md" />
       </list>
     </option>
   </component>
@@ -395,11 +395,11 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18051118" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18051118" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.4608295" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.4608295" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Database Console" weight="0.32931727" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -744,7 +744,7 @@
     <entry file="file://$PROJECT_DIR$/../clif/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="20" column="38" lean-forward="true" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -755,17 +755,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../clif/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="73" selection-start-column="32" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../clif/CODE_OF_CONDUCT.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
-          <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
+          <caret line="73" selection-start-line="73" selection-end-line="73" />
         </state>
       </provider>
     </entry>
@@ -782,7 +775,14 @@
     <entry file="file://$PROJECT_DIR$/../clif/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+          <caret line="3" column="6" lean-forward="true" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../clif/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
