@@ -16,7 +16,6 @@ notifications:
 
 script:
   - go get -t -v ./...
-  - go build -a -installsuffix cgo -o ./dist/clif
 
 deploy:
 - provider: script

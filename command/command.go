@@ -27,7 +27,7 @@ type cmdList []cmd
 func ActionAddCmd(c *cli.Context) error {
 	var cmd = strings.Join(os.Args[3:], " ")
 	cats := append([]string{"Create new"}, category.GetCategories()...)
-	selectedCategory := promt.ShowPromt("Select category", cats)
+	selectedCategory := helpers.ShowSelect("Select category", cats)
 	var catId int
 	var catName string
 
@@ -75,14 +75,14 @@ var commandlistView []string
 func FindCmdInCategories(selectedCatName string)  {
 	var catId int
 	if (len(selectedCatName) < 1) {
-		selectedCatName = promt.ShowPromt("Select category", category.GetCategories())
+		selectedCatName = helpers.ShowSelect("Select category", category.GetCategories())
 	}
 	catId, _ = category.GetCategoryId(selectedCatName)
 
 	for _, v := range FindCmdByCat(catId) {
 		commandlistView = append(commandlistView, "{"+strconv.Itoa(v.id)+"} [" + selectedCatName + "/" + v.name + "]->  " + v.command)
 	}
-	selectedCmd := promt.ShowPromt("Run command", commandlistView)
+	selectedCmd := helpers.ShowSelect("Run command", commandlistView)
 	var cmdId, _ = strconv.Atoi(strings.Replace(strings.Split(selectedCmd, "}")[0], "{", "", -1))
 
 	var args = strings.Split(GetCommandById(cmdId), " ");

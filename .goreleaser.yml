@@ -23,4 +23,6 @@ release:
   github:
     owner: dutchakdev
     name: clif
-  name_template: "{{.ProjectName}}-v{{.Version}} {{.Env.USER}}"
+  draft: true
+  prerelease: true
+  name_template: "{{.ProjectName}}-v{{.Version}}"

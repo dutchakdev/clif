@@ -7,6 +7,7 @@ import (
 	"github.com/dutchakdev/clif/db"
 	"github.com/dutchakdev/clif/globals"
 	"github.com/dutchakdev/clif/helpers"
+	"github.com/dutchakdev/clif/version"
 	"gopkg.in/urfave/cli.v1"
 	"os"
 	"strings"
@@ -17,7 +18,7 @@ func main() {
 	app := cli.NewApp()
 	app.Name = "clif"
 	app.Usage = "CLI Favorites"
-	app.Version = Version()
+	app.Version = version.Version
 	app.EnableBashCompletion = true
 	app.Flags = globals.CommonFlags
 
