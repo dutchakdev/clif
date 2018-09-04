@@ -1,4 +1,4 @@
-# CLI Favorite [![Build Status](https://travis-ci.org/dutchakdev/clif.png)](https://travis-ci.org/dutchakdev/clif)
+# CLI Favorite [![Build Status](https://travis-ci.com/dutchakdev/clif.svg?branch=master)](https://travis-ci.org/dutchakdev/clif)
 
 ## Introduction
 
